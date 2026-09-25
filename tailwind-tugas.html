@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Tailwind_Tugas</title>
+</head>
+
+<body class="bg-white-500 text-gray-800">
+  <nav class="w-full fixed bg-white left-0 top-0 shadow-md border-b z-50">
+    <div class="max-w-7xl flex mx-auto px-10 py-4 justify-between items-center">
+      <a href="#menu" class="text-decoration-none tracking-tight text-red-500">
+        <i class="bi bi-buildings text-5xl"></i>
+      </a>
+      <ul class="hidden md:flex space-x-8 font-semibold text-gray-700">
+        <li><a class="hover:text-red-500 transition" href="#menu"><i class="bi bi-list"></i> Menu</a></li>
+        <li><a class="hover:text-red-500 transition" href="#programstudi"><i class="bi bi-mortarboard-fill"></i> Program Studi</a></li>
+        <li><a class="hover:text-red-500 transition" href="#tentang"><i class="bi bi-house-door"></i> Tentang Kami</a></li>
+        <li><a class="hover:text-red-500 transition" href="#pmb"><i class="bi bi-file-earmark-minus"></i> PMB</a></li>
+        <li><a href="" class="bg-white border-2 rounded-md py-3 px-5 text-red-500"></i>Info Pendaftaran Terbaru</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="menu" class="h-screen max-w-7xl flex mx-auto px-10 py-24 scroll-mt-16">
+    <div class="flex flex-col md:flex-row items-center gap-25">
+      <div class="w-full md:w-1/3 mx-20">
+        <h2 class="text-4xl font-bold pb-2 mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <p class="leading-relaxed text-lg text-gray-600 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tempore ipsum nostrum repellendus 
+          facilis ad quae similique hic impedit nulla quis, neque veniam accusamus ex. Quia illo explicabo sed et.</p>
+      </div>
+      <div class="w-full md:w-2/3 flex justify-center">
+        <img src="https://placehold.net/4.png" alt="Foto Agil" class="w-120 h-120 object-cover rounded-xl shadow-xl rotate-4">
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang" class="bg-red-700 py-40 relative scroll-mt-16 overflow-hidden -rotate-3 *:rotate-3 -mx-5">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="w-full md:1/2 flex justify-center">
+          <iframe class="rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/UpNl26om9Bg?si=ni1bT6qBaS0-RArU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="w-full md:w-1/2">
+        <h2 class="text-5xl text-white font-bold pb-2 mb-6">About Our Campus</h2>
+        <p class="leading-relaxed text-white text-xl text-gray-600 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tempore ipsum nostrum repellendus 
+          facilis ad quae similique hic impedit nulla quis, neque veniam accusamus ex. Quia illo explicabo sed et.</p>
+        <a href="#" class="absolute bg-yellow-400 rounded-full shadow-lg
+      hover:bg-yellow-600 text-white font-bold py-3 px-8 hover:shadow-yellow-600/50">Learn More <i class="bi bi-caret-right-fill"></i></a>
+      </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
